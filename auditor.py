@@ -8,3 +8,6 @@ while True:
         print("Invalid input, please try again!")
         continue
     inventory += int(stockQuantity)
+    if inventory > 500:
+        print("Inventory has exceeded 500 units")
+        break
