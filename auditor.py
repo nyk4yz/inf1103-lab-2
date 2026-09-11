@@ -7,3 +7,4 @@ while True:
             break
         print("Invalid input, please try again!")
         continue
+    inventory += int(stockQuantity)
