@@ -5,3 +5,5 @@ while True:
     if not stockQuantity.isdigit() or int(stockQuantity) < 0:
         if stockQuantity.lower().strip() == "quit":
             break
+        print("Invalid input, please try again!")
+        continue
